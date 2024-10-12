@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+h1, h2{
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+}
+
+p, li, td, h3{
+    font-family: 'Outfit';
+    color: var(--stone600);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--stone100);
+    height: 100%;
+}
+
+.container{
+    max-width:700px;
+    background-color: var(--white);
+    padding: 30px 30px;
+    margin: 100px 0 100px 0;
+    border-radius: 15px;
+}
+
+.omelette-img{
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+}
+
+.description-recipe{
+    margin: 20px 0;
+}
+
+.preparation{
+    background-color: var(--rose50);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.preparation .preparation-title{
+    color: var(--rose800);
+    margin: 0 0 15px 0;
+}
+
+.title{
+    color: var(--brown800);
+    padding: 15px 0;
+}
+
+.ingredients{
+    margin: 20px 0;
+}
+
+.instructions{
+    margin: 20px 0;
+}
+
+ul, ol{
+    margin: 0 15px;
+}
+
+li{
+    padding: 10px 0;
+}
+
+li::marker{
+    color: var(--brown800);
+}
+
+.text{
+    color: var(--stone600);
+}
+
+.nutrition .table{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.table .medidas{
+    color: var(--brown800);
+}
+
+.table td{
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    border-collapse: none;
+}
+
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    background-color: var(--stone100);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
